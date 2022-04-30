@@ -18,3 +18,7 @@ INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp HTML', 'ht
 
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2020-11-20T3:00Z', TIMESTAMP WITH TIME ZONE '2021-11-20T3:00Z', 1);
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2020-12-20T3:00Z', TIMESTAMP WITH TIME ZONE '2021-12-20T3:00Z', 1);
+
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTM', 'Trilha principal do curso', 1, 'https://p.kindpng.com/picc/s/191-1918594_switch-course-grey-arrows-clip-art-png-re.png', 1, 1);
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Trilha principal do curso', 2, 'https://p.kindpng.com/picc/s/191-1918594_switch-course-grey-arrows-clip-art-png-re.png', 2, 1);
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Lives exclusivas para a turma', 'Trilha principal do curso', 3, 'https://p.kindpng.com/picc/s/191-1918594_switch-course-grey-arrows-clip-art-png-re.png', 0, 1);
